@@ -1,0 +1,181 @@
+<?xml-stylesheet type='text/xsl' href='GreenButtonDataStyleSheet.xslt'?>
+<feed xmlns:schemaLocation="http://naesb.org/copyright/customer.xsd" xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:uuid:4b22e4f5-1300-51fc-a4cd-8b0f272ce681</id>
+  <title>Customer Feed</title>
+  <updated>2024-06-12T19:53:05Z</updated>
+  <link rel="related" href="https://cert.greenbuttonalliance.org/certificate/B4FA53B0-9D53-4690-BB6A-8B083A4757F4" type="text/html" />
+  <entry>
+    <content>
+      <LocalTimeParameters xmlns="http://naesb.org/espi/customer" xmlns:espi="http://naesb.org/espi">
+        <dstEndRule>B40E2000</dstEndRule>
+        <dstOffset>3600</dstOffset>
+        <dstStartRule>360E2000</dstStartRule>
+        <tzOffset>-18000</tzOffset>
+      </LocalTimeParameters>
+    </content>
+    <id>urn:uuid:d97f25c4-1a9e-5762-a0f7-3d0672ac5c40</id>
+    <title>DST For North America</title>
+    <published>2024-06-12T19:53:05Z</published>
+    <updated>2024-06-12T19:53:05Z</updated>
+    <link rel="self" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/LocalTimeParameters/000001" type="cust-entry/LocalTimeParameters" />
+    <link rel="up" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/LocalTimeParameters" type="cust-feed/LocalTimeParameters" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/Customer/aee0651e-70e2-5e69-be40-39b560460994" type="cust-entry/Customer" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/ServiceLocation/A036BE60-6C52-44F3-AE3D-154DEAAA2464_e84f5dd5-f7fd-5229-a6cd-bfce19ad3a2e" type="cust-entry/ServiceLocation" />
+  </entry>
+  <entry>
+    <content>
+      <Customer xmlns="http://naesb.org/espi/customer" xmlns:espi="http://naesb.org/espi">
+        <Organisation>
+          <streetAddress>
+            <streetDetail>
+              <addressGeneral>52 ANY STREET</addressGeneral>
+            </streetDetail>
+            <townDetail>
+              <name>N/A</name>
+              <stateOrProvince>ON</stateOrProvince>
+            </townDetail>
+            <postalCode>H0H 0H0</postalCode>
+          </streetAddress>
+          <postalAddress>
+            <streetDetail>
+              <addressGeneral />
+              <addressGeneral2>123 Main ST</addressGeneral2>
+            </streetDetail>
+            <townDetail>
+              <name>North Bay</name>
+              <stateOrProvince>ON</stateOrProvince>
+              <country>Canada</country>
+            </townDetail>
+            <postalCode>H0H 0H0</postalCode>
+          </postalAddress>
+        </Organisation>
+        <customerName>TEST BUSINESS</customerName>
+      </Customer>
+    </content>
+    <id>urn:uuid:8894186e-bb82-5c9a-a5a5-58f282e148ae</id>
+    <title>Customer Information</title>
+    <published>2024-06-12T19:53:05Z</published>
+    <updated>2024-06-12T19:53:05Z</updated>
+    <link rel="self" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/Customer/aee0651e-70e2-5e69-be40-39b560460994" type="cust-entry/Customer" />
+    <link rel="up" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/Customer" type="cust-feed/Customer" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAccount/A036BE60-6C52-44F3-AE3D-154DEAAA2464_12345678-01" type="cust-entry/CustomerAccount" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/LocalTimeParameters/000001" type="cust-entry/LocalTimeParameters" />
+  </entry>
+  <entry>
+    <content>
+      <CustomerAccount xmlns="http://naesb.org/espi/customer" xmlns:espi="http://naesb.org/espi">
+        <contactInfo>
+          <streetAddress>
+            <streetDetail>
+              <addressGeneral>52 ANY STREET</addressGeneral>
+            </streetDetail>
+            <townDetail>
+              <name>N/A</name>
+              <stateOrProvince>ON</stateOrProvince>
+            </townDetail>
+            <postalCode>H0H 0H0</postalCode>
+          </streetAddress>
+          <postalAddress>
+            <streetDetail />
+            <townDetail />
+          </postalAddress>
+        </contactInfo>
+        <accountId>12345678-01</accountId>
+      </CustomerAccount>
+    </content>
+    <id>urn:uuid:98756012-8547-5db6-8f14-fc02b4ef8b93</id>
+    <title>Customer Account</title>
+    <published>2024-06-12T19:53:05Z</published>
+    <updated>2024-06-12T19:53:05Z</updated>
+    <link rel="self" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAccount/A036BE60-6C52-44F3-AE3D-154DEAAA2464_12345678-01" type="cust-entry/CustomerAccount" />
+    <link rel="up" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAccount" type="cust-feed/CustomerAccount" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAgreement/A036BE60-6C52-44F3-AE3D-154DEAAA2464_12345678-01" type="cust-entry/CustomerAgreement" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/Customer/aee0651e-70e2-5e69-be40-39b560460994" type="cust-entry/Customer" />
+  </entry>
+  <entry>
+    <content>
+      <CustomerAgreement xmlns="http://naesb.org/espi/customer" xmlns:espi="http://naesb.org/espi">
+        <agreementId>12345678-01</agreementId>
+      </CustomerAgreement>
+    </content>
+    <id>urn:uuid:447f2d61-2c12-54bf-bc06-5157fe121165</id>
+    <title>Customer Agreement</title>
+    <published>2024-06-12T19:53:05Z</published>
+    <updated>2024-06-12T19:53:05Z</updated>
+    <link rel="self" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAgreement/A036BE60-6C52-44F3-AE3D-154DEAAA2464_12345678-01" type="cust-entry/CustomerAgreement" />
+    <link rel="up" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAgreement" type="cust-feed/CustomerAgreement" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAccount/A036BE60-6C52-44F3-AE3D-154DEAAA2464_12345678-01" type="cust-entry/CustomerAccount" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/ServiceLocation/A036BE60-6C52-44F3-AE3D-154DEAAA2464_e84f5dd5-f7fd-5229-a6cd-bfce19ad3a2e" type="cust-entry/ServiceLocation" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/ServiceSupplier/1431fe30-cfde-56ce-8cc8-fd9e3e27eaf3" type="cust-entry/ServiceSupplier" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAccount/aee0651e-70e2-5e69-be40-39b560460994" type="cust-entry/CustomerAccount" />
+  </entry>
+  <entry>
+    <content>
+      <ServiceLocation xmlns="http://naesb.org/espi/customer" xmlns:espi="http://naesb.org/espi">
+        <mainAddress>
+          <streetDetail />
+          <townDetail />
+        </mainAddress>
+        <UsagePoints>
+          <UsagePoint>https://sandboxdc.savagedata.com:4243/espi/1_1/resource/Subscription/UsagePoint/e84f5dd5-f7fd-5229-a6cd-bfce19ad3a2e</UsagePoint>
+        </UsagePoints>
+      </ServiceLocation>
+    </content>
+    <id>urn:uuid:847adc6b-d3ec-5524-abbf-29fa5ee78508</id>
+    <title>Service Location</title>
+    <published>2024-06-12T19:53:05Z</published>
+    <updated>2024-06-12T19:53:05Z</updated>
+    <link rel="self" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/ServiceLocation/A036BE60-6C52-44F3-AE3D-154DEAAA2464_e84f5dd5-f7fd-5229-a6cd-bfce19ad3a2e" type="cust-entry/ServiceLocation" />
+    <link rel="up" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/ServiceLocation" type="cust-feed/ServiceLocation" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/Meter/A036BE60-6C52-44F3-AE3D-154DEAAA2464_M_MTR123" type="cust-entry/Meter" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/EndDevice/A036BE60-6C52-44F3-AE3D-154DEAAA2464_D_MTR123" type="cust-entry/EndDevice" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/LocalTimeParameters/000001" type="cust-entry/LocalTimeParameters" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAgreement/A036BE60-6C52-44F3-AE3D-154DEAAA2464_12345678-01" type="cust-entry/CustomerAgreement" />
+  </entry>
+  <entry>
+    <content>
+      <ServiceSupplier xmlns="http://naesb.org/espi/customer" xmlns:espi="http://naesb.org/espi">
+        <Organisation>
+          <organisationName>EPCOR Gas</organisationName>
+        </Organisation>
+      </ServiceSupplier>
+    </content>
+    <id>urn:uuid:7457a30d-cc8a-5bee-8b43-234ac1ad0d0b</id>
+    <title>Service Supplier</title>
+    <published>2024-06-12T19:53:05Z</published>
+    <updated>2024-06-12T19:53:05Z</updated>
+    <link rel="self" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/ServiceSupplier/1431fe30-cfde-56ce-8cc8-fd9e3e27eaf3" type="cust-entry/ServiceSupplier" />
+    <link rel="up" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/ServiceSupplier" type="cust-feed/ServiceSupplier" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/CustomerAgreement/A036BE60-6C52-44F3-AE3D-154DEAAA2464_12345678-01" type="cust-entry/CustomerAgreement" />
+  </entry>
+  <entry>
+    <content>
+      <Meter xmlns="http://naesb.org/espi/customer" xmlns:espi="http://naesb.org/espi">
+        <type>Meter</type>
+        <serialNumber>MTR123</serialNumber>
+      </Meter>
+    </content>
+    <id>urn:uuid:ef61bd73-6f77-527f-ae37-a82efe89ecd9</id>
+    <title>Meter</title>
+    <published>2024-06-12T19:53:05Z</published>
+    <updated>2024-06-12T19:53:05Z</updated>
+    <link rel="self" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/Meter/A036BE60-6C52-44F3-AE3D-154DEAAA2464_M_MTR123" type="cust-entry/Meter" />
+    <link rel="up" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/Meter" type="cust-feed/Meter" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/ServiceLocation/A036BE60-6C52-44F3-AE3D-154DEAAA2464_e84f5dd5-f7fd-5229-a6cd-bfce19ad3a2e" type="cust-entry/ServiceLocation" />
+  </entry>
+  <entry>
+    <content>
+      <EndDevice p1:type="Meter" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://naesb.org/espi/customer" xmlns:espi="http://naesb.org/espi">
+        <type>Meter</type>
+        <serialNumber>MTR123</serialNumber>
+      </EndDevice>
+    </content>
+    <id>urn:uuid:3d34a354-ebaf-5b7f-af90-a73b04f5d024</id>
+    <title>End Device</title>
+    <published>2024-06-12T19:53:05Z</published>
+    <updated>2024-06-12T19:53:05Z</updated>
+    <link rel="self" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/EndDevice/A036BE60-6C52-44F3-AE3D-154DEAAA2464_D_MTR123" type="cust-entry/EndDevice" />
+    <link rel="up" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/EndDevice" type="cust-feed/EndDevice" />
+    <link rel="related" href="https://sandboxdc.savagedata.com:4243/espi/1_1/resource/ServiceLocation/A036BE60-6C52-44F3-AE3D-154DEAAA2464_e84f5dd5-f7fd-5229-a6cd-bfce19ad3a2e" type="cust-entry/ServiceLocation" />
+  </entry>
+</feed>
