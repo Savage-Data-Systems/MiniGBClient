@@ -13,9 +13,3 @@
 - The provided appsettings assume you've created an application in an SavageData Onboarding site and had requested all possible data for the scope.
 3. Run the application and login, you can use the provided credentials from the onboarding site or use the one time access login with any information.
 4. Accept the authorization. 
-5. 
-6. 
-
-
-# Missing Functionality
-- TODO

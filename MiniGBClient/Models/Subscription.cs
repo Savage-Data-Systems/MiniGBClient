@@ -14,4 +14,4 @@ namespace MiniGBClient.Models
 
         public DateTime ExpirationTime { get; set; }
     }
-}
+}s
