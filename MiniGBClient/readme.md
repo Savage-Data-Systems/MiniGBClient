@@ -3,7 +3,8 @@
 - IDE (Recommended Visual Studio 2022)
 
 # Setup
-1. Configure your config.json file
+
+1. Create and Configure your config.json file. It should be placed in top level of the project.
 - The client_id and client_secret are provided when you create an application in the SavageData Onboarding site. Or if you have another Data Custodian you want to connect to.
 `{
   "client_id": "<your client id>",
