@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /MiniGBClient/readme.md
 /MiniGBClient/config.json
+/MiniGBClient/MiniGbClient.db
