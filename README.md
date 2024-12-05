@@ -1,4 +1,4 @@
-# Prerequisists 
+# Prerequisites 
 - .Net 8 SDK
 - IDE (Recommended Visual Studio 2022)
 
